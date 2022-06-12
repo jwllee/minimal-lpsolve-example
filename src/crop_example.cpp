@@ -60,7 +60,7 @@ int demo() {
     row[j++] = 30;
 
     // add thw row to lpsolve
-    if (!add_constraintex(lp, j, row, col_no, LE, 75))
+    if (!add_constraintex(lp, j, row, col_no, LE, 4000))
       ret = 3;
   }
 
